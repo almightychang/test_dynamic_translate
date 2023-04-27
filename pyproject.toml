@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-dynamic-translate"
+version = "0.1.0"
+description = ""
+authors = ["Joochul <joochul@aniai.ai>"]
+readme = "README.md"
+packages = [{include = "test_dynamic_translate"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+PySide6 = "^6.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
